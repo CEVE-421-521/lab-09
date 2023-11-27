@@ -1,9 +1,13 @@
 ---
 title: "Lab 09: The Lake Problem"
-subtitle: "Julia Basics"
+subtitle: "DifferentialEquations"
 author: "CEVE 421/521"
 jupyter: julia-1.9
 date: 2024-03-29
+week: 11
+
+categories: [Lab]
+
 format: 
     html: default
 #    pdf:
