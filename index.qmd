@@ -1,8 +1,8 @@
 ---
-title: "Lab 09: The Lake Problem"
+title: "Lab 9: The Lake Problem"
 subtitle: "DifferentialEquations"
 author: "CEVE 421/521"
-jupyter: julia-1.9
+jupyter: julia-1.10
 date: 2024-03-29
 week: 11
 
@@ -10,14 +10,21 @@ categories: [Lab]
 
 format: 
     html: default
-#    pdf:
-#        documentclass: article
-#        fontsize: 10pt
-#        geometry:
-#            - margin=1in  
-#    docx: 
-#        toc: true
-#        fig-format: png
+
+    # YOU DO NOT NEED BOTH PDF AND DOCX.
+    # COMMENT OR DELETE THE ONE YOU DON'T WANT TO USE.
+    pdf:
+        documentclass: article
+        fontsize: 11pt
+        geometry:
+            - margin=1in  
+        number-sections: true
+        code-line-numbers: true
+    docx: 
+        toc: true
+        fig-format: png
+        number-sections: true
+        code-line-numbers: true
 
 date-format: "ddd., MMM. D"
 ---
